@@ -20,9 +20,10 @@ header img{
     background-color: #E5E4E2;
     line-height: 20px;
     padding: 10px;
+    margin: 0px
 
 }
-h1, h2{
+h1, h2, h3{
     font-family: "MuseoModerno", sans-serif;
 }
  
@@ -44,6 +45,7 @@ header h2{
     border: solid 1px black;
     border-radius: 5px;
     font-family: Arial, sans-serif;
+    
 }
 .skills-section ul li:hover{
     color: #fff;
@@ -51,6 +53,49 @@ header h2{
     transition: 0.5s;
 
 }
+.contact-section{
+    background-color: #E5E4E2;
+    margin-top: 25px;
+    padding: 5px 0px 10px 10px;
+    line-height: 10px;
+    
+    
+}
+.contact-section p {
+    margin-top: 5px;
+  }
+
+.contact-section a{
+    color: #814040;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  
+  }
+  .contact-section a:hover{
+    color: darkgreen;
+}
+.social-icons{
+    margin-top: 25px;
+    justify-content: space-around;
+
+}
+.social-icons li{
+    display: inline-block;
+}
+
+
+.social-icons a{
+    margin-right: 15px;
+    color: #814040;
+    display: inline-block;
+    transition: transform 0.5s;
+
+}
+.social-icons a:hover{
+    color: darkgreen;
+}
+
+
 
 
 
